@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #612406;
+}
+
 .barraNav {
   display: flex;
   justify-content: center;
@@ -5,12 +12,14 @@
   gap: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(96, 25, 25);
+  margin-bottom: 5em;
 }
 
 .barraNav p {
   background-color: rgb(249, 210, 104);
   padding: 10px 25px;
   border-radius: 40px;
+  cursor: pointer;
 }
 
 .barraLogo {
@@ -26,12 +35,30 @@
   width: 50px;
   height: auto;
 }
+
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  width: 50%;
+  width: 37%;
   height: 30em;
   background-color: #fbf7e3;
   border-radius: 6em;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .imgCard {
@@ -58,6 +85,7 @@
   display: flex;
   justify-content: center;
   gap: 2em;
+  margin-bottom: 2em;
 }
 
 .nameProductAndPrice {
@@ -77,4 +105,5 @@ button {
   border-radius: 2em;
   border: 0;
   width: 50%;
+  cursor: pointer;
 }
