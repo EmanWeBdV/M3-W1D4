@@ -1,31 +1,80 @@
 .barraNav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(96, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(96, 25, 25);
 }
 
-
 .barraNav p {
-    background-color: rgb(249, 210, 104);
-    padding: 10px 25px;
-    border-radius: 40px;
+  background-color: rgb(249, 210, 104);
+  padding: 10px 25px;
+  border-radius: 40px;
 }
 
 .barraLogo {
-    font-size: 35px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 30px 50px;
-font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 50px;
+  font-weight: bold;
 }
 
 .barraLogo img {
-    width: 50px;
-    height: auto;}
+  width: 50px;
+  height: auto;
+}
 .card {
+  width: 50%;
+  height: 30em;
   background-color: #fbf7e3;
+  border-radius: 6em;
+  overflow: hidden;
+}
+
+.imgCard {
+  height: 65%;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCard img {
+  object-fit: cover;
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.generalInfo {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.nameProductAndPrice {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.priceProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #f4df86;
+  padding: 1em;
+  border-radius: 2em;
+  border: 0;
+  width: 50%;
 }
